@@ -1,0 +1,70 @@
+/*------------------------------------------------------------------ 
+
+[Stylesheet styles.less] 
+
+Project:    		easing.less
+Version:    		0.1 
+Autor:		    	Roland Loesslein (rl) 
+Website:			http://wwww.weaintplastic.com
+
+-------------------------------------------------------------------*/
+
+
+/****************************************/
+/* IMPORTS								*/
+/****************************************/
+
+	/* 	Import other less stlyes */
+	@import 'easing.less';
+	@import 'reset.less';
+	
+
+
+
+/****************************************/
+/* LAYOUT								*/
+/****************************************/
+	
+	body{
+		background: 	#e2e1e1;
+	}
+
+	#site-wrapper{
+		width: 		400px;
+		margin:  	0 auto;
+		
+
+		
+	}
+
+
+	a.active{
+		div{
+			left: 				374px;
+			background: 			#38d368;
+		}
+	}
+
+	a{
+		display: 				block;
+		padding: 				2px;
+		height: 				24px;
+		background: 			#fff;
+		-webkit-border-radius: 	24px;
+    	border-radius: 			24px;
+    	-webkit-box-shadow:  	0px 1px 2px 0px rgba(0,0,0,0.2);
+        box-shadow:  			0px 1px 2px 0px rgba(0,0,0,0.2);
+    	position: 				relative;
+
+		div{
+			position: 				absolute;
+			left: 					2px;
+			width: 					24px;
+			height: 				24px;
+			-webkit-border-radius: 	24px;
+    		border-radius: 			24px;
+    		background: 			red;
+    		-webkit-box-shadow:  	0px 1px 2px 0px rgba(0,0,0,0.1);
+        box-shadow:  			0px 1px 2px 0px rgba(0,0,0,0.1);
+		}
+	}
