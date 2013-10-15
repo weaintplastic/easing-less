@@ -1,7 +1,7 @@
 easing.less
 ===========
 
-A css3 easing mixin library based on less. Please find a demo here http://weaintplastic.github.com/easing.less/
+A css3 easing mixin library based on less. Please find a demo here http://weaintplastic.github.io/easing-less
 
 
 ## CSS usage
